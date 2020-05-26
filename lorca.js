@@ -461,7 +461,7 @@ class Lorca
 
     corpusFrequency(token)
     {
-        var list = cachedList = cachedList || require('./dictionaries/frequencyListRAE50000.json', 'utf8');
+        var list = cachedList = cachedList || require('./dictionaries/frequencyListRAE50000.json');
 
         if(token){            
             return list[token];
