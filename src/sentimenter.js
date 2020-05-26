@@ -6,7 +6,7 @@ class Sentimenter
 {
     constructor()
     {
-        this.afinnList = require('../dictionaries/afinnShortSortedSpanish');
+        this.afinnList = require('../dictionaries/afinnShortSortedSpanish.json');
         this.senticonList = require('../dictionaries/senticon.json');
         this.list = {};
         this.afinnStem = {};
